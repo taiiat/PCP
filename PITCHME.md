@@ -7,8 +7,9 @@
 +++
 probabilistically checkable proof(確率的検査証明)
 
-SNARKs, STARKs, Bulletproofs, Aurora またはそれらの応用である
-(Zcash) and scalability (Ignis, StarkDEX, scaling Ethereum…を支える証明
+SNARKs, STARKs, Bulletproofs, Aurora 
+
+privacy(Zcash) と scalability (Ignis, StarkDEX, scaling Ethereum…を支える証明
 
 ---
 ### PCPとは
@@ -37,7 +38,9 @@ SNARKs, STARKs, Bulletproofs, Aurora またはそれらの応用である
 +++
 　### 数学的には
  
- $PCP(Q,R) = \cup_r \in R,q \in Q PCP(q(n),r(n))$
+$q:N→N$ $r:N→N$
+ 
+$PCP(Q,R) = \cup PCP(q(n),r(n))$
  
 
 
@@ -50,7 +53,10 @@ $O(\log n)$の乱数列と$O(1)$ビットを検索でNPがとける
 
 
 ---
-$PCP(1,log_n) = P$yより$P \notsubseteq NP$
+$PCP(1,log_n) = P$yより$P \nsubseteq NP$から
+$PCP(1,log_n)  \nsubseteq PCP[O(\log n),O(1)]$
+
+乱数列長を増やすほうが盗み見する部分をふやすより強力
 
 
 
