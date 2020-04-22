@@ -36,10 +36,9 @@ privacy(Zcash) と scalability (Ignis, StarkDEX, scaling Ethereum)を支える�
 - サイズnの入力に対して検証者は高々、$q(n)$回のコイン投げ、$r(n)$回のオラクルアクセス
 
 +++
-　### 数学的には
+### 数学的には
  
-$q:N→N$ 
-$r:N→N$
+$q:N→N$ ,$r:N→N$
  
 $PCP(Q,R) = \bigcup PCP(q(n),r(n))$
  
