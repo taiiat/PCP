@@ -37,7 +37,7 @@ SNARKs, STARKs, Bulletproofs, Aurora またはそれらの応用である
 +++
 　### 数学的には
  
- PCP(q(n),r(n)) 
+ $PCP(Q,R) = \cup_r \in R,q \in Q PCP(q(n),r(n))
  
 
 
