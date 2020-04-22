@@ -9,7 +9,7 @@ probabilistically checkable proof(確率的検査証明)
 
 SNARKs, STARKs, Bulletproofs, Aurora 
 
-privacy(Zcash) と scalability (Ignis, StarkDEX, scaling Ethereum…を支える証明
+privacy(Zcash) と scalability (Ignis, StarkDEX, scaling Ethereum)を支える証明
 
 ---
 ### PCPとは
@@ -29,7 +29,7 @@ privacy(Zcash) と scalability (Ignis, StarkDEX, scaling Ethereum…を支える
 
 言語:$L$,検証者(oracle):$V$,任意入力:$x \in {0,1}$
 
-- 完全性:$$x \in L$$ならばあるオラクル$\pi$で$V(\pi,x)$が確率１で受理
+- 完全性:$x \in L$ならばあるオラクル$\pi$で$V(\pi,x)$が確率１で受理
 
 - 健全性:$x \in L$ならば任意のオラクル$\pi$に対して$V(\pi,x)$が$\frac{1}{2}$で拒否
 
@@ -40,7 +40,7 @@ privacy(Zcash) と scalability (Ignis, StarkDEX, scaling Ethereum…を支える
  
 $q:N→N$ $r:N→N$
  
-$PCP(Q,R) = \cup PCP(q(n),r(n))$
+$PCP(Q,R) = \bigcup PCP(q(n),r(n))$
  
 
 
