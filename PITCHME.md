@@ -49,7 +49,7 @@ $PCP(Q,R) = \bigcup PCP(q(n),r(n))$
 
 $NP=PCP[O(\log n),O(1)] $
 
-$O(\log n)$の乱数列と$O(1)$ビットを検索でNPがとける
+$O(\log n)$の乱数列と$O(1)$ビットの検索でNPとける
 
 
 ---
