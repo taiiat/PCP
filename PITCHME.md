@@ -52,7 +52,7 @@ $NP=PCP[O(\log n),O(1)] $
 $O(\log n)$の乱数列と$O(1)$ビットの検索でNPとける
 
 
----
++++
 $PCP(1,log_n) = P$yより$P \nsubseteq NP$から
 $PCP(1,log_n)  \nsubseteq PCP[O(\log n),O(1)]$
 
