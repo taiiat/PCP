@@ -38,7 +38,8 @@ privacy(Zcash) と scalability (Ignis, StarkDEX, scaling Ethereum)を支える�
 +++
 　### 数学的には
  
-$q:N→N$ $r:N→N$
+$q:N→N$ 
+$r:N→N$
  
 $PCP(Q,R) = \bigcup PCP(q(n),r(n))$
  
