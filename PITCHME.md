@@ -28,16 +28,16 @@ SNARKs, STARKs, Bulletproofs, Aurora またはそれらの応用である
 
 言語:$L$,検証者(oracle):$V$,任意入力:$x \in {0,1}$
 
-- 完全性:$$x \in L$$ならばあるオラクル$/pi$で$V(/pi,x)$が確率１で受理
+- 完全性:$$x \in L$$ならばあるオラクル$\pi$で$V(\pi,x)$が確率１で受理
 
-- 健全性:$x \in L$ならば任意のオラクル$/pi$に対して$V(/pi,x)$が$\frac{1}{2}$で拒否
+- 健全性:$x \in L$ならば任意のオラクル$\pi$に対して$V(\pi,x)$が$\frac{1}{2}$で拒否
 
 - サイズnの入力に対して検証者は高々、$q(n)$回のコイン投げ、$r(n)$回のオラクルアクセス
 
 +++
 　### 数学的には
  
- $PCP(Q,R) = \cup_r \in R,q \in Q PCP(q(n),r(n))
+ $PCP(Q,R) = \cup_r \in R,q \in Q PCP(q(n),r(n))$
  
 
 
@@ -50,7 +50,7 @@ $O(\log n)$の乱数列と$O(1)$ビットを検索でNPがとける
 
 
 ---
-
+$PCP(1,log_n) = P$yより$P \notsubseteq NP$
 
 
 
